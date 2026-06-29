@@ -6,7 +6,7 @@ const APPS_CONFIG = [
     name: 'PiliPlus',
     bundleIdentifier: 'com.example.piliplus',
     repo: 'bggRGjQaUbCoE/PiliPlus',
-    tintColor: '#00A1D6',
+    tintColor: '00A1D6',
     iconURL: 'https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/0df637fb733fcb248231b1dc2637e076e1a8f19b/assets/images/logo/logo.png',
     description: '使用Flutter开发的BiliBili第三方客户端'
   },
@@ -14,7 +14,7 @@ const APPS_CONFIG = [
     name: '日程清单',
     bundleIdentifier: 'com.dailygig.dailyGigJournal',
     repo: 'shupian35/daily_gig_journal',
-    tintColor: '#FF6B6B',
+    tintColor: 'FF6B6B',
     iconURL: 'https://raw.githubusercontent.com/shupian35/daily_gig_journal/ef310d4c70e5e992efa124a2acf163056d6c0b5b/assets/icon/app_icon.png',
     description: '帮助日结兼职人员轻松记录工作安排、笔记与工资统计'
   },
@@ -22,7 +22,7 @@ const APPS_CONFIG = [
     name: '课记',
     bundleIdentifier: 'com.example.keeji',
     repo: 'shupian35/keeji',
-    tintColor: '#FF6B6B',
+    tintColor: 'FF6B6B',
     iconURL: 'https://raw.githubusercontent.com/shupian35/keeji/b2c278b1dd5a05003959ab92b5d0e0e7ea90c6d9/assets/icon/app_icon.png',
     description: '用于将视频课程转换为结构化笔记'
   }
@@ -83,7 +83,7 @@ async function updateAppsJson() {
     if (newVersion !== currentVersion || !app.downloadURL) {
       app.version = newVersion;
       app.versionDate = release.published_at || new Date().toISOString();
-      app.versionDescription = (release.body || '').replace(/[\r\n]+/g, ' ').substring(0, 500);
+      app.versionDescription = (release.body || '').replace(/\*\*.*?\*\*/g, '').replace(/[\r\n]+/g, ' ').trim().substring(0, 500);
       app.downloadURL = ipaAsset.browser_download_url;
       console.log(`Updated ${config.name} to version ${newVersion}`);
     } else {

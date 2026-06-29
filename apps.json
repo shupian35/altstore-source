@@ -1,6 +1,5 @@
 {
   "sourceURL": "https://raw.githubusercontent.com/shupian35/altstore-source/main/apps.json",
-  "name": "自用Altstore软件源",
   "apps": [
     {
       "name": "PiliPlus",
@@ -10,7 +9,7 @@
       "versionDate": "2026-06-13T09:40:58Z",
       "versionDescription": "修复 bug 其他调整 #2404 by @My-Responsitories",
       "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.2/PiliPlus_ios_2.0.9%2B5051.ipa",
-      "tintColor": "#00A1D6",
+      "tintColor": "00A1D6",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/0df637fb733fcb248231b1dc2637e076e1a8f19b/assets/images/logo/logo.png",
       "screenshotURLs": [],
       "localizedDescription": "使用Flutter开发的BiliBili第三方客户端",
@@ -24,7 +23,7 @@
       "versionDate": "2026-06-28T17:25:54Z",
       "versionDescription": "",
       "downloadURL": "https://github.com/shupian35/daily_gig_journal/releases/download/v1.0.0/default.ipa",
-      "tintColor": "#FF6B6B",
+      "tintColor": "FF6B6B",
       "iconURL": "https://raw.githubusercontent.com/shupian35/daily_gig_journal/ef310d4c70e5e992efa124a2acf163056d6c0b5b/assets/icon/app_icon.png",
       "screenshotURLs": [],
       "localizedDescription": "帮助日结兼职人员轻松记录工作安排、笔记与工资统计",
@@ -36,9 +35,9 @@
       "developerName": "shupian35",
       "version": "1.0.0",
       "versionDate": "2026-06-28T15:55:58Z",
-      "versionDescription": "**Full Changelog**: https://github.com/shupian35/keeji/commits/v1.0.0",
+      "versionDescription": "",
       "downloadURL": "https://github.com/shupian35/keeji/releases/download/v1.0.0/keji_flutter-ios-unsigned.ipa",
-      "tintColor": "#FF6B6B",
+      "tintColor": "FF6B6B",
       "iconURL": "https://raw.githubusercontent.com/shupian35/keeji/b2c278b1dd5a05003959ab92b5d0e0e7ea90c6d9/assets/icon/app_icon.png",
       "screenshotURLs": [],
       "localizedDescription": "用于将视频课程转换为结构化笔记",
