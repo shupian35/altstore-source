@@ -1,0 +1,48 @@
+{
+  "sourceURL": "https://shupian35.github.io/altstore-source/apps.json",
+  "apps": [
+    {
+      "name": "PiliPlus",
+      "bundleIdentifier": "com.example.piliplus",
+      "developerName": "bggRGjQaUbCoE",
+      "version": "1.0.0",
+      "versionDate": "2026-01-01T00:00:00Z",
+      "versionDescription": "",
+      "downloadURL": "",
+      "tintColor": "#00A1D6",
+      "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/0df637fb733fcb248231b1dc2637e076e1a8f19b/assets/images/logo/logo.png",
+      "screenshotURLs": [],
+      "localizedDescription": "使用Flutter开发的BiliBili第三方客户端",
+      "appPermissions": []
+    },
+    {
+      "name": "日程清单",
+      "bundleIdentifier": "com.dailygig.dailyGigJournal",
+      "developerName": "shupian35",
+      "version": "1.0.0",
+      "versionDate": "2026-01-01T00:00:00Z",
+      "versionDescription": "",
+      "downloadURL": "",
+      "tintColor": "#FF6B6B",
+      "iconURL": "https://raw.githubusercontent.com/shupian35/daily_gig_journal/ef310d4c70e5e992efa124a2acf163056d6c0b5b/assets/icon/app_icon.png",
+      "screenshotURLs": [],
+      "localizedDescription": "帮助日结兼职人员轻松记录工作安排、笔记与工资统计",
+      "appPermissions": []
+    },
+    {
+      "name": "课记",
+      "bundleIdentifier": "com.example.keeji",
+      "developerName": "shupian35",
+      "version": "1.0.0",
+      "versionDate": "2026-01-01T00:00:00Z",
+      "versionDescription": "",
+      "downloadURL": "",
+      "tintColor": "#FF6B6B",
+      "iconURL": "https://raw.githubusercontent.com/shupian35/keeji/b2c278b1dd5a05003959ab92b5d0e0e7ea90c6d9/assets/icon/app_icon.png",
+      "screenshotURLs": [],
+      "localizedDescription": "用于将视频课程转换为结构化笔记",
+      "appPermissions": []
+    }
+  ],
+  "news": []
+}
