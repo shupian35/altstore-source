@@ -80,7 +80,7 @@ async function updateAppsJson() {
 
     console.log(`Current version: ${currentVersion}, Latest version: ${newVersion}`);
 
-    if (newVersion !== currentVersion) {
+    if (newVersion !== currentVersion || !app.downloadURL) {
       app.version = newVersion;
       app.versionDate = release.published_at || new Date().toISOString();
       app.versionDescription = (release.body || '').replace(/[\r\n]+/g, ' ').substring(0, 500);
