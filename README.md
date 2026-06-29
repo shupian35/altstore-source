@@ -11,7 +11,7 @@
 将以下源 URL 导入到支持 AltStore 源格式的应用中：
 
 ```
-https://raw.githubusercontent.com/shupian35/altstore-source/main/apps.json
+https://shupian35.github.io/altstore-source/apps.json
 ```
 
 [在线预览](https://therealfoxster.github.io/altsource-viewer/view/app/?source=https://shupian35.github.io/altstore-source/apps.json&id=com.example.piliplus)

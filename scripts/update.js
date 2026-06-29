@@ -83,7 +83,7 @@ async function updateAppsJson() {
     if (newVersion !== currentVersion) {
       app.version = newVersion;
       app.versionDate = release.published_at || new Date().toISOString();
-      app.versionDescription = release.body || '';
+      app.versionDescription = (release.body || '').replace(/[\r\n]+/g, ' ').substring(0, 500);
       app.downloadURL = ipaAsset.browser_download_url;
       console.log(`Updated ${config.name} to version ${newVersion}`);
     } else {
