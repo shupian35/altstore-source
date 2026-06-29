@@ -1,5 +1,6 @@
 {
   "sourceURL": "https://raw.githubusercontent.com/shupian35/altstore-source/main/apps.json",
+  "name": "自用Altstore软件源",
   "apps": [
     {
       "name": "PiliPlus",
